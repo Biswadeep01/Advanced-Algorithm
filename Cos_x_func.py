@@ -1,3 +1,5 @@
+"""1 - x^2/2! + x^4/4! - x^6/6! + ... - x^n/n!"""
+
 x = float(input("Enter the radian value of cos: "))
 n = int(input("Enter the term: "))
 s=1

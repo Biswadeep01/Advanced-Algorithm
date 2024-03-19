@@ -3,9 +3,10 @@
 """import math
 def sin(x, n):
   sum = 0
-  for i in range(n+1):
-    term = (-1)**i * x**(2*i+1) / math.factorial(2*i+1)
-    sum += term
+  t = x
+  for i in range(1, n+1):
+    t = t / i
+    sum += t
   return sum"""
 
 def fact(n):
